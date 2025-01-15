@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        Hello! My name is Brennan Finley. I am a software engineer from Columbus, Ohio. I am a graduate of The Ohio State University with a B.S. in Computer Science and Engineering. I am a full stack developer with a passion for building web and mobile applications and also have experience with AI and machine learning technologies. I am a quick learner and have a strong work ethic. I am a team player and I am always looking to improve my skills.
       </SectionText>
     </Section>
   );
