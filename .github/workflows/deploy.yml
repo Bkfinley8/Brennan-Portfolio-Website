@@ -14,12 +14,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'  # or your preferred version
+          node-version: '20'  # Keep using Node 20
 
       - name: Install dependencies
         run: npm ci  # or yarn install --frozen-lockfile
-
+        
       - name: Build
+        env:
+          NODE_OPTIONS: '--openssl-legacy-provider'  # Add this line
         run: npm run build
 
       - name: Deploy to GitHub Pages
