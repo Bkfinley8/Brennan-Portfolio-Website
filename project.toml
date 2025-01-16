@@ -1,0 +1,3 @@
+[[build.env]]
+name = "GOOGLE_NODEJS_PACKAGE_MANAGER"
+value = "npm"
