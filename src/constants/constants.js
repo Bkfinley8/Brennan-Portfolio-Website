@@ -18,7 +18,7 @@ export const projects = [
   {
     title: 'Ignite',
     description: "A pilot project for a professional social connection platform for those in medical fields. This app allows users to connect with other professionals in their field, and also allows them to find jobs and internships. Built using FLutter for both mobile and web platforms. Firebase was used for authentication and database management.",
-      image: '/images/3.jpg',
+      image: '/images/3-2.png',
       tags: ['Flutter', 'Firebase'],
     source: 'https://google.com',
     id: 2,
@@ -26,7 +26,7 @@ export const projects = [
   {
     title: 'Parking Master',
     description: "A parking lot management system for owners to manage their parking lots and for customers to find parking. Built using HTML and CSS for the frontend, and PHP for the backend. Relational database on MySQL was used to store parking lot information and customer information.",
-    image: '/images/4.jpg',
+    image: '/images/4.png',
     tags: ['HTML', 'CSS', 'PHP', 'MySQL'],
     source: 'https://github.com/Bkfinley8/ParkingMaster',
     id: 3,
@@ -34,7 +34,7 @@ export const projects = [
   {
     title: 'Catan Leaderboard',
     description: "A web app that allows users to easily keep score in the board game Catan. This app allows users to join sessions on a mobile device and interact with the host keeping track of the game state. Electron, JavaScript, HTML and CSS were used to build the app.",
-    image: '/images/5.jpg',
+    image: '/images/5.png',
     tags: ['Electron', 'JavaScript', 'HTML', 'CSS'],
     source: 'https://github.com/Bkfinley8/CatanLeaderboard',
     id: 4,
@@ -42,7 +42,7 @@ export const projects = [
   {
     title: 'Moody Beats',
     description: "A mobile app built using Kotlin in Android Studio. This app connects with the users Spotify account via the Spotify API and plays songs based on their music preference and their \'mood\' (surrounding ambient light).",
-    image: '/images/6.jpg',
+    image: '/images/6-2.png',
     tags: ['Kotlin', 'Android Studio', 'Spotify API'],
     source: 'https://github.com/Bkfinley8/MoodyBeats',
     id: 5,
