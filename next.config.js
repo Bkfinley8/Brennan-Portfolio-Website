@@ -3,14 +3,11 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  images: {
-    unoptimized: true,
-  },
   output: 'export',
+  distDir: 'dist',
   images: {
     unoptimized: true,
   },
-  output: 'standalone',
   basePath: '/Brennan-Portfolio-Website ',
 }
 
