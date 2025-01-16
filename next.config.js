@@ -3,15 +3,14 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  output: 'export',
-  distDir: 'dist',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
   ...(process.env.NODE_ENV === 'production' ? {
     basePath: '/Brennan-Portfolio-Website',
     assetPrefix: '/Brennan-Portfolio-Website',
-  } : {})
+  } : {}),
 }
 
 module.exports = nextConfig 
