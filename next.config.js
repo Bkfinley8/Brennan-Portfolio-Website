@@ -10,9 +10,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  experimental: {
-    serverActions: true,
-  },
   output: 'standalone',
   basePath: '/Brennan-Portfolio-Website ',
 }
