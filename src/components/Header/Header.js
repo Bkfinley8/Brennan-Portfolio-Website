@@ -8,23 +8,25 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="/" style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' }}>
+      <Link href="/" legacyBehavior>
+        <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' }}>
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+        </a>
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects" legacyBehavior>
+        <Link href="#projects" passHref legacyBehavior>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech" legacyBehavior>
+        <Link href="#tech" passHref legacyBehavior>
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about" legacyBehavior>
+        <Link href="#about" passHref legacyBehavior>
           <NavLink>About Me</NavLink>
         </Link>
       </li>
